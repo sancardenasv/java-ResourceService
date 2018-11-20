@@ -1,0 +1,15 @@
+logging:
+  config: /config/logback-spring.xml
+server:
+  port: 5039
+  proxy:
+    enabled: true
+    host: http://192.168.0.6
+    port: 3128
+management:
+  contextPath: /metrics
+  port: 8080
+  security:
+    enabled: false
+application:
+  resources-folder: 'file:/home/scardenas/Documentos/Tellit'

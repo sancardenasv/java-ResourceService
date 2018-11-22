@@ -12,4 +12,4 @@ management:
   security:
     enabled: false
 application:
-  resources-folder: 'file:/home/scardenas/Documentos/Tellit'
+  resources-folder: 'file:/home/scardenas/Documentos/Tellit/'
